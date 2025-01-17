@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .box{
+            background: rgb(2,0,36);
+            background: linear-gradient(111deg, rgba(2,0,36,1) 50%, rgba(255,255,255,1) 50%);
+            border: 2px solid black;
+            height: 80vh;
+            width: 60vw;
+        }
+        .text h1{
+            text-transform: uppercase;
+            font-size: 34px;
+            color: white;
+            padding: 5px;
+        }
+        h1{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form h1{
+            border-bottom: 3px solid black;
+        }
+        .text p{
+            color: white;
+            font-size: 20px;
+        }
+        .text{
+            padding: 25px;
+            margin: 20px;
+        }
+        .form{
+            position: absolute;
+            left: 500px;
+            top: 20px;
+            margin: 23px;
+            width: 20vw;
+            height: 70vh;
+        }
+        .form form button{
+            border: 1px solid blue;
+            background-color: blue;
+            color: white;
+            border-radius: 23px;
+            padding: 15px;
+            width: 150px;
+        }
+        p a{
+            text-decoration: none;
+        }
+        input{
+            border: none;
+            border-bottom: 1px solid grey;
+            margin: 10px 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="text">
+            <h1>Welcome</h1>
+            <h1>Back!</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur</p>
+            <p>adipisicing elit. Expedita dolorum minima </p> 
+            <p>dignissimos, animi adipisci eligendi.</p>
+        </div>
+        <div class="form">
+            <form>
+                <h1>Sign Up</h1>
+                <label for="name">User Name</label>
+                <br>
+                <input type="text">
+                <i class="fa-solid fa-user"></i>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email">
+                <i class="fa-solid fa-envelope"></i>
+                <br>
+                <label for="pass">Password</label>
+                <br>
+                <input type="password" name="pass" id="pass">
+                <i class="fa-solid fa-lock"></i>
+                <br><br>
+                <button>Sign Up</button>
+                <br>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
